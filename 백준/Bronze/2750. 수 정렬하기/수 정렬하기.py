@@ -1,7 +1,7 @@
-x = int(input())
-num_list = []
-for i in range(x):
-    num_list.append(int(input()))
-num_list1 = sorted(num_list)
-for i in range(len(num_list)):
-    print(num_list1[i])
+n = int(input())
+List = []
+for i in range(n):
+    List.append(int(input()))
+List = sorted(List)
+for j in range(len(List)):
+    print(List[j])
